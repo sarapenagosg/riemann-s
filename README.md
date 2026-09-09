@@ -2,7 +2,7 @@
 
 Proyecto de trabajo de grado.
 
-## Instalación
+## Instalación:
 pip install -r requirements.txt
 pip install -e .
 
