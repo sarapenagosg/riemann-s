@@ -19,6 +19,9 @@ def sample_branch_points(rng, min_gap):
             break
     return e
 
+def branch_gaps(e):
+    return np.diff(e)
+
 def polynomial_coefficients(e):
     y2=Polynomial.fromroots(e)
     return y2.coef
